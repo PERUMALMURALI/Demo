@@ -20,8 +20,8 @@ steps:
       {
         "files": [
           {
-            "pattern": "**/target/*"
-            "target": https://perumal09062001.jfrog.io/artifactory/BWR/
+            "pattern": "**/target/*.war"
+            "target": "BWR"
           }
         ]
       }
