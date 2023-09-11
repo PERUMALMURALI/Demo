@@ -10,22 +10,6 @@ steps:
   inputs:
     rootFolderOrFile: '$(build.sourcesDirectory)'
     includeRootFolder: false
-    
-- task: JFrogGenericArtifacts@1
-  inputs:
-    command: 'Upload'
-    connection: 'BQX'
-    specSource: false
-    fileSpec: |
-      {
-        "files": [
-          {
-            "pattern": '**/target/*.war'
-            "target": 'demo-class-libs-snapshot'
-          }
-        ]
-      }
-    failNoOp: false 
 # Archive your static HTML project and save it with the build record.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
