@@ -21,7 +21,7 @@ steps:
         "files": [
           {
             "pattern": "**/target/*"
-            "target": "**/target/*"
+            "target": https://perumal09062001.jfrog.io/artifactory/BWR/
           }
         ]
       }
