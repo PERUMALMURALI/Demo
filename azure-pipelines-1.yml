@@ -15,13 +15,13 @@ steps:
   inputs:
     command: 'Upload'
     connection: 'BQX'
-    specSource: true 
+    specSource: false
     fileSpec: |
       {
         "files": [
           {
-            "pattern": "**/target/*.war"
-            "target": "demo-class-libs-snapshot"
+            "pattern": '**/target/*.war'
+            "target": 'demo-class-libs-snapshot'
           }
         ]
       }
