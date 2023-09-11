@@ -21,7 +21,7 @@ steps:
         "files": [
           {
             "pattern": "**/target/*.war"
-            "target": "BWR"
+            "target": "demo-class-libs-snapshot"
           }
         ]
       }
